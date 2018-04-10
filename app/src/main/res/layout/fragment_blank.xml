@@ -1,0 +1,107 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tgraydas.lab2.Formulario">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="54dp"
+        android:layout_toEndOf="@+id/tetv"
+        android:layout_toRightOf="@+id/tetv"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/date_T"
+        android:layout_alignBottom="@+id/date_T"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:text="Fecha" />
+
+    <EditText
+        android:id="@+id/date_T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignStart="@+id/nombre"
+        android:layout_below="@+id/nombre"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/tetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/comentario"
+        android:layout_alignBottom="@+id/comentario"
+        android:layout_alignLeft="@+id/fecha"
+        android:layout_alignStart="@+id/fecha"
+        android:text="Comentario" />
+
+    <EditText
+        android:id="@+id/comentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/date_T"
+        android:layout_alignStart="@+id/date_T"
+        android:layout_below="@+id/date_T"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textPersonName" />
+
+    <TextView
+        android:id="@+id/catevvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tetv"
+        android:layout_alignStart="@+id/tetv"
+        android:layout_below="@+id/comentario"
+        android:layout_marginTop="44dp"
+        android:text="Categoria" />
+
+    <EditText
+        android:id="@+id/category_T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/comentario"
+        android:layout_alignStart="@+id/comentario"
+        android:layout_below="@+id/comentario"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nombre"
+        android:layout_alignBottom="@+id/nombre"
+        android:layout_alignLeft="@+id/fecha"
+        android:layout_alignStart="@+id/fecha"
+        android:text="Nombre" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/category_T"
+        android:layout_alignStart="@+id/category_T"
+        android:layout_below="@+id/category_T"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="57dp"
+        android:text="Save" />
+</RelativeLayout>

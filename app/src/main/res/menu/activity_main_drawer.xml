@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+            android:icon="@android:drawable/toast_frame"
+            android:title="Login" />
+        <item
+            android:id="@+id/formulario"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Formulario" />
+        <item
+            android:id="@+id/vista_formulario"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Ver Formularios" />
+        <item
+            android:id="@+id/resumen_formulario"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Resumen" />
+        <item
+            android:id="@+id/add_questions"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Agregar Preguntas" />
+    </group>
+
+
+</menu>
